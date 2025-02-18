@@ -12,6 +12,12 @@ export const MOVEMENT_NETWORK_CONFIG = {
         chainId: '250',
         name: 'Movement Bardock Testnet',
         explorerNetwork: 'bardock+testnet'
+    },
+    porto: {
+        fullnode: 'https://aptos.testnet.porto.movementlabs.xyz/v1',
+        chainId: '177',
+        name: 'Movement Porto Testnet',
+        explorerNetwork: 'testnet'
     }
 } as const;
 
